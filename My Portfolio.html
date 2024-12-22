@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="My Portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <button id="cv-button">CV</button>
+            <button id="projects-button">Projects</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- CV Section -->
+        <section id="cv-section">
+            <h2>My CV</h2>
+            <iframe src="CV.pdf" id="cv-frame" frameborder="0"></iframe>
+        </section>
+    <main>
+        <!-- Projects Section -->
+        <section id="projects-section">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Beginner Level Python Projects</h3>
+                <p>Password Generator</p>
+                <p>Guess the number</p>
+                <a href="https://github.com/code-name-professor" target="_blank" class="button">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Web hosting on AWS</h3>
+                <p>Utilized AWS Cloud Practitioner skills combined with the codes leveraged from openAI.</p>
+                <a href="https://github.com/code-name-professor" class="button">View on GitHub</a>
+            </div>            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Thank You (Credit: Unknown Coder)</p>
+    </footer>
+
+    <script src="My Portfolio.js"></script>
+</body>
+</html>
